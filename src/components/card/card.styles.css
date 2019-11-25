@@ -1,15 +1,20 @@
 .card-container {
+    /* flex: 1; */
+    
     display: flex;
     flex-direction: column;
-    background-color: seashell;
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 25px;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: #fff;
+
+    border-radius: 20px;
     cursor: pointer;
     -moz-osx-font-smoothing: greyscale;
     backface-visibility: translateZ(0);
-    transition: trasnform 0.25s ease-out;
-    /* max-width: 300px; */
+    transition: transform 0.25s ease-out;
+    
+    max-width: 180px;
+
 }
 
 .card-container:hover {

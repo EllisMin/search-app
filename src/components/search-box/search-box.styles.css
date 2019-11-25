@@ -4,11 +4,13 @@ input {
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
   width: 130px;
-  border: 3px solid aquamarine;
+  border: 3px solid rgb(220, 231, 241);
   padding: 8px;
+  
   
 }
 /* When input field gets focus, change width*/
 input:focus {
   width: 70%;
+  outline: none;
 }

@@ -17,15 +17,12 @@ class App extends Component {
 
   componentDidMount() {
     fetch("https://jsonplaceholder.typicode.com/users")
-    .then(response => response.json())
-    .then(users2 => this.setState({ users: users2 }));
-
-
+      .then(response => response.json())
+      .then(users2 => this.setState({ users: users2 }));
     // Fetch local json file
     // fetch("http://localhost:3000/fakejsondata.json")
     // .then(response => response.json())
     // .then(users2 => this.setState({ users: users2 }));
-    
   }
 
   handleChange = e => {
